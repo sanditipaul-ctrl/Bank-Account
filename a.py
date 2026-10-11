@@ -9,3 +9,8 @@ class BankAccount:
     def show_balance(self):
         print(f"Account: {self.name}")
         print(f"Balance: {self.balance}")
+
+
+account = BankAccount("Rahim", 1000)
+account.deposit(500)
+account.show_balance()
